@@ -1,3 +1,25 @@
 .bg-custom {
-  background-color: $orange-700;
+  background-color:$pink-500;
+  color:$gray-100;
 }
+ .btn-primary{
+  background-color:$cyan-400;
+  color:$cyan-800 ;
+  border: none;
+  &:hover { 
+    background-color:$cyan-400;
+    color:$cyan-800 ;
+    filter:brightness(80%)
+  }
+
+ }
+
+ .border-custom{
+
+  border: 4px solid $pink-500;
+ }
+
+ .card-custom{
+  background-color:$gray-100;
+  color: $gray-600;
+ }
